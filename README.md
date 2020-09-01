@@ -16,7 +16,7 @@ Format of **config.txt**:
         hh:mm 
         text 2
 
-Text will be displayed until time on previous line
+Text will be displayed until time on previous line.
 
 ### Example
 
@@ -38,3 +38,8 @@ Text will be displayed until time on previous line
         Exam - Part D
 
 If current time is 13:45, app will display *Exam - Part D* that will end at 14:00
+
+## Sound test
+You can easly test if your sound is working:
+
+After openning the application, just press **T** on you keyboard and alarm sound will play
