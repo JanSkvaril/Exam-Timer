@@ -1,3 +1,4 @@
+![Demo image](https://github.com/JanSkvaril/Exam-Timer/blob/master/demo.PNG?raw=true "Demo")
 # Exam Timer
 This is simple application for multistep exams that you can open on projector of monitor, so your students can easly see how mutch time they have left. 
 ## How to run
