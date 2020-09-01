@@ -1,0 +1,28 @@
+<Window x:Class="Timer.MainWindow"
+      
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Timer"
+        mc:Ignorable="d"
+        Title="Timer" Height="760.023" Width="1251.884" SizeChanged="Window_SizeChanged" WindowStartupLocation="CenterScreen" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp">
+    <Grid>
+
+        <Label x:Name="mesTXT" Content="hodina" HorizontalAlignment="Right" VerticalAlignment="Top" RenderTransformOrigin="2.992,0.426" Height="90" Width="940" FontSize="72" FontFamily="Calibri" Margin="0,25,211.6,0" HorizontalContentAlignment="Right">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.284"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="4.758"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="timeTXT" Content="16:25" HorizontalAlignment="Right" Margin="0,19,23.6,0" VerticalAlignment="Top" RenderTransformOrigin="2.992,0.426" Height="90" Width="176" FontSize="72" FontFamily="Calibri"/>
+        <Label x:Name="leftTXT" Content="15:10"  RenderTransformOrigin="2.992,0.426" Height="349" FontSize="75" Width="1194" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Calibri" Margin="26,172,24,0"/>
+        <Label x:Name="nowTXT" Content="5:08" Margin="0,0,0,0.4" RenderTransformOrigin="2.992,0.426" FontSize="72" FontFamily="Calibri" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="96" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="300"/>
+        <ProgressBar x:Name="progres" Height="30" Width="562" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="342,557,341.6,143.4" VerticalContentAlignment="Bottom" Background="Black" Foreground="Black"/>
+
+    </Grid>
+</Window>
